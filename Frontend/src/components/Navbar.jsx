@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-// import { FontAwesomeIcon } from '@fontawesome/react-fontawesome'
-import { faCartShopping, } from '@fontawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartShopping, } from '@fortawesome/free-solid-svg-icons'
 import { useCart } from "react-use-cart";
 import { useAuth } from '../context/AuthProvider';
 import toast from 'react-hot-toast';

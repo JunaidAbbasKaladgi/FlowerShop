@@ -68,11 +68,11 @@ const Categories = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=''>
+                    <div className='w-[100vh] h-[455vh]'>
                         <Products selectedCategory={selectedCategory} viewAllProducts={viewAllProducts} />
                     </div>
                 </div>
-                <div className="mt-[3vh]">
+                <div className="">
                     <Footer />
                 </div>
             </div>
